@@ -268,6 +268,7 @@ color:turquoise;
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
+
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
@@ -281,7 +282,10 @@ color:turquoise;
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
-
+.data {
+  color: #171515;
+text-decoration: none;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
