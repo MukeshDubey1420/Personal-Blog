@@ -9,7 +9,7 @@
 $( document ).ready(function() {
     console.log( "Welcome To My Blog" );
     speechRs.speechinit('Google हिन्दी',function(e){
-          speechRs.speak("Hello , Sir ,  Mam , Welcome to My BloG. I Am Mukesh , Dubey.", function() {
+          speechRs.speak("Hello , Sir, Welcome to My BloG. I Am Mukesh , Dubey.", function() {
                    //speaking completed.
                }, false);
       });
