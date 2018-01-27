@@ -185,6 +185,11 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
+.parallax-window {
+    min-height: 450px;
+    background: transparent;
+}
+
 
 #about {
    background: #2B2B2B;
