@@ -2,4 +2,6 @@
 
 A descriptive CV built using HTML and CSS.
 
-[Click Here To Visit Website..](https://mukeshdubey1420.github.io/Personal-Blog/)
+[Click Here To Visit Website..]()
+
+[Click Here To Visit Website..](https://mukeshdubeyportfolio.netlify.com/)
