@@ -25,6 +25,7 @@
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
     <link href="css/pace-theme-corner-indicator.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.min.css">
 
 
     <!-- Script
@@ -32,6 +33,10 @@
     <script src="js/rs.speech.js"></script>
 	<script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="favlogo.png" >
@@ -43,7 +48,7 @@
    ================================================== -->
    <header id="home">
 
-      <nav id="nav-wrap">
+      <nav id="nav-wrap" class="animated fadeInDown delay-0.5s">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -88,7 +93,7 @@
 
    <!-- About Section
    ================================================== -->
-   <section id="about">
+   <section id="about" class="wow zoomIn">
 
       <div class="row">
 
@@ -146,7 +151,9 @@
    <section id="resume">
 
       <!-- Education
+
       ----------------------------------------------- -->
+        <section class="wow slideInLeft" >
       <div class="row education">
 
          <div class="three columns header-col">
@@ -197,12 +204,13 @@
 
       </div> <!-- End Education -->
 
-
+       </section>
       <!-- Work
       ----------------------------------------------- -->
 
 
       <!-------------------------------------------------->
+        <section class="wow slideInRight" >
       <div class="row work">
 
          <div class="three columns header-col">
@@ -238,8 +246,10 @@
 
       </div> <!-- End Work -->
 
-
+          </section>
       <!-- Skills----------------------------------------------- -->
+            
+             <section class="wow bounceInUp" >
       <div class="row skill">
 
          <div class="three columns header-col">
@@ -267,13 +277,14 @@
 			</div> <!-- main-col end -->
 
       </div> <!-- End skills -->
+            </section>
 
    </section> <!-- Resume Section End-->
 
 
    <!-- Portfolio Section
    ================================================== -->
-   <section id="portfolio">
+   <section id="portfolio"  class="wow zoomIn">
 
       <div class="row">
 
@@ -435,7 +446,7 @@
 
    <!-- Contact Section
    ================================================== -->
-   <section id="contact">
+   <section id="contact" class="wow lightSpeedIn">
 
          <div class="row section-head">
 
