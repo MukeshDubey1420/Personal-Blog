@@ -803,3 +803,9 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
+
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
